@@ -1339,3 +1339,76 @@ nav a.active::after {
     box-shadow:
         0 20px 45px rgba(139, 92, 246, 0.15);
 }
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin: 0 7px;
+    }
+
+    /* Home Section */
+    #home {
+        min-height: auto;
+        padding: 60px 20px 50px;
+    }
+
+    /* Profile Image */
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    /* Welcome text */
+    .hero-tag {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* Name */
+    #home h1 {
+        font-size: 48px;
+        line-height: 1.1;
+        margin: 20px 0;
+    }
+
+    /* Typing text */
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    /* Description */
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 100%;
+    }
+
+    /* Buttons */
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .hero-buttons a {
+        width: 200px;
+        text-align: center;
+    }
+
+    /* All sections */
+    section {
+        padding: 60px 20px;
+    }
+}
